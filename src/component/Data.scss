@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.headlog {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    margin-top: 5px;
+    border-bottom: 1px solid #DBDDE0;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    gap: 13px;
+    margin-right: 20px;
+
+}
+
+.profile>p {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.profile>h6 {
+    margin-top: 20px;
+
+}
+
+.profileImg>img {
+    margin-top: 9px;
+}
+
+.slideTitle1 {
+    display: flex;
+    background-color: rgb(231, 227, 227);
+}
+
+.slideBar {
+    display: block;
+    width: 258px;
+    height: 120vh;
+    padding: 15px;
+    background-color: #FFBD5C;
+}
+
+.box1 {
+    margin-top: 50px;
+}
+
+.box1>div {
+    padding: 8px;
+}
+
+.side>img {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.Custom {
+    background-color: #982620;
+    width: 225px;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+}
+
+.slideTitle2 {
+    margin: 15px 22px;
+}
+
+.Registerbox {
+    display: flex;
+    gap: 20px;
+    width: 20px;
+}
+
+.Registerbox>div>img {
+    width: 145px;
+    margin-top: 23px;
+}
+
+.tableBox>img {
+    width: 980px;
+    margin-top: 25px;
+
+}
+
+.boxTable {
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 5px;
+
+}
+
+.tableBox {
+    text-align: end;
+    margin-right: 30px;
+}
+
+.tableBox>img {
+    width: 200px;
+    margin-top: 15px;
+
+}
+
+// .tableBox>input {
+//     width: 200px;
+//     margin-top: 15px;
+//     margin-left: 20rem;
+// }
+
+
+// Bootstrap Css
+// .tableHead>thead>tr>th {
+//     width: 16px;
+//     height: 14px;
+//     font-size: 12px;
+//     color: #982620;
+//     margin-left: 20px;
+// }
+
+.tableHead {
+    font-size: 0.86rem;
+    margin-top: -15px;
+}
+
+//.End
+table {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+th,td {
+    padding: 6.4px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: top;    
+    width: 30%;
+}
+.wide-header {
+    width: 30%; 
+    padding-right: 150px;
+}
+
+thead {
+    color: #982620;
+}
+
+
+.Nums {
+    width: 20px;
+    background-color: aqua;
+}
+
+.footertitle {
+    display: flex;
+    column-gap:17px;
+    margin-top: 2rem;
+}
+
+.lefticon {
+    border: 1px solid lightgrey;
+    padding: 13px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.btn1 {
+    background-color: #982620;
+    text-align: center;
+    padding: 16px;
+    border-radius: 5px;
+}
+.btn2{
+    margin-top:14px;
+
+}
